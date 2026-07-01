@@ -90,4 +90,4 @@ if st.button("🔍 Predict Subscription", use_container_width=True, type="primar
 
     st.progress(float(prob_dict.get('yes', 0)), text=f"Confidence for YES: {prob_dict.get('yes', 0):.1%}")
 
-st.caption("Model: Decision Tree Classifier · Preprocessor: MinMaxScaler + OneHotEncoder")
+st.caption("Model:Logistic Regression Classifier · Preprocessor: MinMaxScaler + OneHotEncoder")
